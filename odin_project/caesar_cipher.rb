@@ -11,7 +11,7 @@ def caesar_cipher(text, shift)
   encrypted_text.join
 end
 
-text = "konusma"
+text = "That was who I am?"
 shift = 3
 
 encrypted = caesar_cipher(text, shift)
