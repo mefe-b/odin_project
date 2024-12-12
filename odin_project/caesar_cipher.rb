@@ -3,7 +3,7 @@ def caesar_cipher(text, shift)
 
     if char =~ /[A-Za-z]/
       base = char.upcase == char ? 'A'.ord : 'a'.ord
-      new_char = ((char.ord - base - shift) % 26 + base).chr
+      new_char = ((char.ord - base + shift) % 26 + base).chr
     else 
       char
     end
@@ -12,7 +12,7 @@ def caesar_cipher(text, shift)
 end
 
 text = "That was who I am?"
-shift = 3
+shift = 35
 
 encrypted = caesar_cipher(text, shift)
 puts encrypted
