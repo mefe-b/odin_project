@@ -11,8 +11,9 @@ def caesar_cipher(text, shift)
   encrypted_text.join
 end
 
-text = "That was who I am?"
-shift = 35
+text = "That was who I am."
+shift = 7
 
 encrypted = caesar_cipher(text, shift)
 puts encrypted
+

@@ -15,3 +15,8 @@ def stock_picker(prices)
 
   best_days
 end
+
+prices = [105, 180, 260, 310, 40, 535, 695]
+
+best_days = stock_picker(prices)
+puts "En iyi alım-satım günleri: #{best_days}"

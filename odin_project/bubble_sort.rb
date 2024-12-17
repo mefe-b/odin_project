@@ -16,3 +16,6 @@ def bubble_sort(list)
 
   list
 end
+
+numbers = [5, 3, 8, 4, 2]
+sorted_numbers = bubble_sort(numbers)

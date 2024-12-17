@@ -1,6 +1,6 @@
 def substrings(words, dictionary)
-  words = [words] unless words.is_a?(Array)  # Eğer words bir dizi değilse, onu diziye dönüştür
-  words = words.map(&:downcase)
+  words = [words] unless words.is_a?(Array)
+  words = words.map(&:downcase)  
   result = {}
 
   words.each do |word|
@@ -12,3 +12,9 @@ def substrings(words, dictionary)
 
   result
 end
+
+words = "hello world"
+dictionary = ["hello", "world", "o", "ell"]
+
+results = substrings(words, dictionary)
+puts results
