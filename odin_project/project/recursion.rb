@@ -1,4 +1,3 @@
-# Fibonacci Dizisi - Yinelemeli
 def fibs(n)
   fib_sequence = [0, 1]
   (2...n).each do |i|
@@ -7,15 +6,13 @@ def fibs(n)
   fib_sequence[0...n]
 end
 
-# Fibonacci Dizisi - Özyinelemeli
 def fibs_rec(n, sequence = [0, 1])
-  puts 'This was printed recursively' # Yineleme etkisini görmek için
+  puts 'This was printed recursively'
   return sequence[0...n] if sequence.size >= n
   sequence << sequence[-1] + sequence[-2]
   fibs_rec(n, sequence)
 end
 
-# Birleştirme Sıralaması (Merge Sort)
 def merge_sort(array)
   return array if array.length <= 1
 
