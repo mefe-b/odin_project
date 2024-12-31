@@ -16,4 +16,3 @@ shift = 7
 
 encrypted = caesar_cipher(text, shift)
 puts encrypted
-

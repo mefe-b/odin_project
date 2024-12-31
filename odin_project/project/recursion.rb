@@ -39,3 +39,4 @@ puts "Fibonacci (yinelemeli): #{fibs(8).inspect}"
 puts "Fibonacci (özyinelemeli): #{fibs_rec(8).inspect}"
 puts "Merge Sort: #{merge_sort([3, 2, 1, 13, 8, 5, 0, 1]).inspect}"
 puts "Merge Sort: #{merge_sort([105, 79, 100, 110]).inspect}"
+

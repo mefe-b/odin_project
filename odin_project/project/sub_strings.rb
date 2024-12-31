@@ -18,3 +18,4 @@ dictionary = ["hello", "world", "o", "ell"]
 
 results = substrings(words, dictionary)
 puts results
+
